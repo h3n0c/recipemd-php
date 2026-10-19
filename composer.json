@@ -1,0 +1,30 @@
+{
+    "name": "h3n0c/recipemd",
+    "description": "RecipeMD parser and writer for PHP: Markdown recipes with scaling, ingredient groups and recipe links.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["recipemd", "recipe", "markdown", "commonmark", "parser"],
+    "homepage": "https://github.com/h3n0c/recipemd-php",
+    "authors": [
+        { "name": "H3n0C" }
+    ],
+    "require": {
+        "php": "^8.2",
+        "league/commonmark": "^2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": { "H3n0c\\RecipeMD\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "H3n0c\\RecipeMD\\Tests\\": "tests/" }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
